@@ -1,0 +1,3 @@
+Interactive JavaScript Added: 
+1. Image Carousel - displays images, with buttons for changing images forward/backward and a functional/clickable bar that shows what image is currently displayed and can be clicked to change to a specific image of the carousel. With JS disabled, the carousel and buttons are disabled, which is still acessible because there is no important information on any images and the core function of the image display is still served. https://getbootstrap.com/docs/5.3/components/carousel/
+2. Tooltips - shows small tooltips for buttons, explaining their functionality and encouraging their use. Also not necessary for acessability, as they are understandable without the tooltips. 

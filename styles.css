@@ -1,0 +1,201 @@
+h1 {
+    color: #4E2A84;
+    text-align:center;
+}
+
+.live-btn{
+    background-color: #4E2A84;
+    border-color: #EF2E2E;
+    border-width: 3px;
+    color:white;
+    text-shadow: 2px,4px,white;
+}
+
+.live-btn:hover{
+    background-color: #836EAA; /* lighter purple on hover */
+}
+
+.live-btn:after {
+    content: "";
+    clear: both;
+  }
+
+.three-btn-group button { 
+    /* reference: https://www.w3schools.com/howto/howto_css_button_group.asp */
+    background-color: rgb(78, 42, 132); /* purple background */
+    border: 1px solid black; /* black border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    /*width:25%;*/
+  }
+  
+  .three-btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .three-btn-group:after {
+    content: "";
+    clear: both;
+  }
+  
+  /* Add a background color on hover */
+  .three-btn-group button:hover {
+    background-color: #836EAA; /* lighter purple on hover */
+  }
+
+
+  .purple-btn {
+    background-color: #4E2A84; /* purple background */
+    color: white;
+    border-color: black;
+  }
+
+.purple-btn:hover {
+  background-color: #836EAA;
+}
+
+.purple-btn button {
+  background-color: #4E2A84; /* purple background */
+  color: white;
+  border-color: black;
+}
+
+  .purple-btn button:hover {
+    background-color: #836EAA; /* lighter purple on hover */
+  }
+
+  /* icons, from w3schools*/
+ /* Style all font awesome icons */
+ .fa-brands {
+  padding: 30px;
+  font-size: 30px;
+  margin:.5em;
+  width: 3em;
+  border-radius: 50%;
+  text-align: match-parent;
+  text-decoration: none;
+  display:flex;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+} 
+
+/* YouTube */
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/* Twitch */
+.fa-twitch {
+  background: #6441a5;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+  margin:.5em;
+  width: 3em;
+  border-radius: 50%;
+  text-align: match-parent;
+  text-decoration: none;
+  display:flex;
+}
+
+/* Discord */
+.fa-discord {
+  background: #5865F2;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+  margin:.5em;
+  width: 3em;
+  border-radius: 50%;
+  text-align: match-parent;
+  text-decoration: none;
+  display:flex;
+}
+
+/* email */
+.fa-envelope {
+  background: grey;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+  margin:.5em;
+  width: 3em;
+  border-radius: 50%;
+  text-align: match-parent;
+  text-decoration: none;
+  display:flex;
+}
+
+/* https://philna.sh/blog/2020/03/23/responsive-twitch-embed/ */
+.twitch .twitch-video {
+  padding-top: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.twitch .twitch-video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.twitch .twitch-chat {
+  height: 400px;
+}
+
+.twitch .twitch-chat iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 850px) {
+  .twitch {
+    position: relative;
+  }
+
+  .twitch .twitch-video {
+    width: 75%;
+    padding-top: 42.1875%;
+  }
+
+  .twitch .twitch-chat {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+:root {
+  --purple: #6441a5;
+}
+
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--purple);
+  --bs-tooltip-color: var(--bs-white);
+}
