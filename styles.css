@@ -22,7 +22,7 @@ h1 {
     background-color: #836EAA;
   }
 
-.live-btn{
+/*.live-btn{
     background-color: #4E2A84;
     border-color: #EF2E2E;
     border-width: 3px;
@@ -31,8 +31,9 @@ h1 {
 }
 
 .live-btn:hover{
-    background-color: #836EAA; /* lighter purple on hover */
+    background-color: #836EAA; /* lighter purple on hover 
 }
+*/
 
 .live-btn:after {
     content: "";
