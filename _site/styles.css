@@ -3,6 +3,22 @@ h1 {
     text-align:center;
 }
 
+.live-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: gray;
+}
+  .live-button.live {
+    background-color: red;
+  }
+  .live-button.offline {
+    background-color: blue;
+  }
+
 .live-btn{
     background-color: #4E2A84;
     border-color: #EF2E2E;
