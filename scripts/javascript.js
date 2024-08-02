@@ -19,10 +19,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 button.classList.remove('offline');
                 button.classList.add('live');
                 button.textContent = 'Live Now!';
+                button.disabled = false; // Enable the button if live
             } else {
                 button.classList.remove('live');
                 button.classList.add('offline');
                 button.textContent = 'Currently Offline';
+                button.disabled = true; // Disable the button if not live
             }
         } catch (error) {
             console.error('Error fetching stream status:', error);
